@@ -357,9 +357,15 @@
   background-color: var(--primary-color);
   color: #fff;
 }
-
+button:hover{
+  background-color: var(--btn-bg-hover);
+}
+button:active{
+  background-color: var(--btn-bg-pressed);
+}
 .btn-loading {
   cursor: not-allowed;
+  opacity: var(--opacity-03);
 }
 .btn-loading:after {
   content: "Loading...";
