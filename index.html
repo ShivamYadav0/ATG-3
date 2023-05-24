@@ -14,22 +14,28 @@
       >
         <h3 class="font-h20 p-5 text-center">Enter Your Name</h3>
         <input
-          class="input input-large input-default"
+          class="input input-large input-icon-left input-default"
           type="text"
           placeholder="Enter Name"
         />
-        <button class="btn btn-primary font-p20">Submit</button>
+        <button
+          class="btn btn-primary font-p20 text-center flex justify-center gap-10"
+        >
+          Submit
+        </button>
       </div>
     </div>
     <script>
       document.querySelector(".btn").addEventListener("click", function () {
         this.classList.add("btn-loading");
-        this.setAttribute("disabled", "true");
-        this.textContent = "";
+        this.classList.add("cursor-not-allowed");
+        this.textContent = "Loading...";
+
         setTimeout(function () {
-          // Remove loading state and enable the button after 2 seconds
+          document.querySelector(".btn").classList.add("opacity-5");
+          document.querySelector(".btn").classList.add("cursor-not-allowed");
           document.querySelector(".btn").classList.remove("btn-loading");
-          document.querySelector(".btn").removeAttribute("disabled");
+          document.querySelector(".btn").setAttribute("disabled", "true");
           document.querySelector(".btn").textContent = "Submit";
         }, 2000);
       });
