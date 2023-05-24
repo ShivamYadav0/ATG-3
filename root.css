@@ -88,6 +88,7 @@
   --height-full: 100% !important;
   --width-half: 50%;
   --width-70\%: 70%;
+  --width-sm: 300px !important;
 }
 * {
   margin: 0;
