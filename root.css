@@ -423,12 +423,12 @@ input:focus {
   box-shadow: var(--shadow-level-4);
 }
 
-.scale-200{
+
+.scale-sm-2{
   transform: scale(2);
 }
-
-/* @media (min-width: 768px){
-  .md-scale-100{
-    transform: scale(1);
+@media (min-width: 768px){
+ .scale-sm-2{
+    transform: scale(1.1);
   }
-} */
+}
