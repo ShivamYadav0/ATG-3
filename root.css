@@ -98,9 +98,13 @@
 .height-screen {
   height: 100vh;
 }
+.width-sm{
+  width: 300px;
+}
+
 .width-half {
   width: 50vw;
-}
+}//6265030895
 .max-width-400 {
   max-width: 400px;
 }
