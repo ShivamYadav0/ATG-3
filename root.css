@@ -410,7 +410,6 @@ button:active {
   border: 2px solid var(--dark-bg-secondary);
   border-top: 2px solid var(--light-bg-deafult);
   animation: spin 0.8s linear infinite;
- 
 }
 .cursor-not-allowed {
   cursor: not-allowed;
@@ -432,7 +431,7 @@ button:active {
   padding: var(--medium-padding);
 }
 
-.input-small{
+.input-small {
   padding: var(--small-padding);
 }
 
@@ -452,10 +451,10 @@ input:focus {
   font-size: var(--font-16);
 }
 .input-icon-left {
-  padding-left:var(--padding-40);
-  background-position:var(--padding-10) center;
+  padding-left: var(--padding-40);
+  background-position: var(--padding-10) center;
   background-repeat: no-repeat;
-  background-image: url('User.png');
+  background-image: url("User.png");
 }
 
 .input-typing {
@@ -476,19 +475,10 @@ input:focus {
   box-shadow: var(--shadow-level-4);
 }
 
-.spin {
- 
-  width: var(--width-20);
-  height: var(--height-20);
-  border-radius: var(--border-radius-full);
-  border: 2px solid var(--dark-bg-secondary);
-  border-top: 2px solid var(--light-bg-deafult);
-  animation: spin 0.8s linear infinite;
-}
-.gap-10{
+.gap-10 {
   gap: var(--gap-10);
 }
-.display-none{
+.display-none {
   display: none;
 }
 @keyframes spin {
