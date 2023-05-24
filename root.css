@@ -373,7 +373,6 @@
 
 /* Button Styles */
 .btn {
-  padding: var(--medium-padding);
   margin: var(--default-margin);
   border-radius: var(--border-radius-05);
   border: none;
@@ -389,6 +388,16 @@ button:hover {
 }
 button:active {
   background-color: var(--btn-bg-pressed);
+}
+.btn-size-default {
+  padding: var(--medium-padding);
+}
+.btn-size-small {
+  padding: var(--small-padding);
+}
+
+.btn-size-large {
+  padding: var(--large-padding);
 }
 .btn-loading {
   opacity: var(--opacity-05);
