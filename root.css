@@ -87,6 +87,7 @@
   --width-full: 100% !important;
   --height-full: 100% !important;
   --width-half: 50%;
+  --width-70\%: 70%;
 }
 * {
   margin: 0;
@@ -111,8 +112,11 @@
 .width-half {
   width: var(--width-half);
 } //6265030895
-.min-width-330 {
-  min-width: 330px;
+.width-70\%{
+  width: var(--width-70\%);
+}
+.max-width-400 {
+  max-width: 400px;
 }
 /* margin */
 
